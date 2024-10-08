@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    height: 96vh;
+    width: 96vh;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+}
+
+.pixel {
+    flex: auto;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+}
+
+.color {
+    background-color: purple;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    margin: 10px;
+}
